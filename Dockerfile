@@ -1,6 +1,7 @@
 FROM node:onbuild
-MAINTAINER Benjamin Jorand <benjamin.jorand@gmail.com>
+MAINTAINER ninthwalker
 # Forked for unraid usage
+# Original Creator: Benjamin Jorand <benjamin.jorand@gmail.com>
 
 EXPOSE 7879
 
