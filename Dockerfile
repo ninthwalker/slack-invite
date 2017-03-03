@@ -2,9 +2,9 @@ FROM node:onbuild
 MAINTAINER Benjamin Jorand <benjamin.jorand@gmail.com>
 # Forked for unraid usage
 
-EXPOSE 3000
+EXPOSE 7879
 
-COPY . /slack-invite-automation
-WORKDIR /slack-invite-automation
+COPY . /slack-invite
+WORKDIR /slack-invite
 RUN npm install
 CMD ./bin/www
