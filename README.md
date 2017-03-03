@@ -1,5 +1,7 @@
 Slack Invite Automation
-------------
+
+Modified for unRAID docker usage.
+---------------------------------
 
 A tiny web application to invite a user into your Slack team.
 
@@ -8,10 +10,6 @@ Inspired by
 and
 [Socket.io's Slack page](http://socket.io/slack/).
 
-This project supports Heroku, Azure and Cloud Foundry.
-
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
-[![Deploy to Azure](http://azuredeploy.net/deploybutton.png)](https://azuredeploy.net/)
 
 ## Settings
 
