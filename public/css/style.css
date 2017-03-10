@@ -7,7 +7,7 @@ html,body{
 margin:0;
 padding:0;
 font-family: 'Open Sans', sans-serif;
-background: #fff url(../images/bg.jpg) center top no-repeat;
+background: #1f1f1f center top no-repeat;
 background-size: cover;
 height: 100%;
 width: 100%;
@@ -56,10 +56,9 @@ font-weight: 700;
 
 h2{
 	text-align: center;
-	font-weight: 300;
+	font-weight: 500;
 	font-size: 20px;
-		color: #ffffff;
-
+	color: #95a5a6;
 }
 
 h2 strong{
@@ -77,13 +76,20 @@ margin: 0 auto;
 h3{
 font-size: 28px;
 font-weight: 600;
-color: #ffffff;
+color: #f9aa03;
 }
 
 .information p{
 font-size: 16px;
-color: #ffffff;
+color: #f9aa03;
 display: block;
+}
+
+h4{
+	text-align: center;
+	font-weight: 400;
+	font-size: 15px;
+	color: #95a5a6;
 }
 
 .form{
@@ -96,17 +102,17 @@ margin-top: 20px;
 background: url(../images/field.png) repeat;
 width: 448px;
 -webkit-border-radius: 30px;-moz-border-radius: 30px;border-radius: 30px;
-border: none;
+border: 1px solid #95a5a6;
 font-style: italic;
 font-family: 'Lato', sans-serif;
 font-size: 16px;
-color: #ffffff;
+color: #95a5a6;
 padding: 15px;
 margin-bottom: 15px;
 outline: none;
 }
 	.field:focus {
-	border: 1px solid #ffffff;
+	border: 1px solid #f9aa03;
 	padding: 14px;
 	}
 @media only screen and (max-width: 480px)  {
@@ -130,7 +136,7 @@ right: 15px;
 top: 13px;
 padding: 3px 10px;
 -webkit-border-radius: 30px;-moz-border-radius: 30px;border-radius: 30px;
-background: #ffffff;
+background: #95a5a6;
 border: none;
 font-family: 'Lato', sans-serif;
 font-size: 14px;
@@ -140,7 +146,7 @@ cursor: pointer;
 
 
 .submit:hover{
-background: #eeeeee;
+background: #f9aa03;
 }
 
 .error {
