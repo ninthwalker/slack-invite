@@ -10,6 +10,11 @@ html
     #wrapper
       .main
         .header
+          h1
+            img(src="../images/brentsflixlogo-4websitesmall.png" alt="Brentsflix")
           h1= message
           h2= error.status
           pre #{error.stack}
+          h1
+            a(href='https://brentsflix.slack.com')
+              img(src='../images/slack-icon-60.png' alt="brentsflix.slack.com")
