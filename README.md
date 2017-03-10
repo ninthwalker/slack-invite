@@ -1,4 +1,4 @@
-Slack Invite Automation
+## NOT FOR GENERAL USE - Customized Slack Invite Automation for myself
 
 Modified for unRAID docker usage.
 ---------------------------------
